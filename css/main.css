@@ -112,3 +112,63 @@ img{
     margin-top: 0;
     margin-bottom: 15px;
 }
+
+/*-------------------------------- Footer -----------------------------*/
+
+.footer {
+    background-color: #061634;
+    color: #6479A2;
+    padding-top: 90px;
+    padding-bottom: 190px;
+}
+
+.footer p {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+p.footer__name {
+    font-size: 28px;
+    margin-bottom: 10px;
+    line-height: normal;
+    font-family: 'Merriweather', serif;
+}
+
+p.footer__social{
+    color: #FFF;
+}
+
+p.footer__social-icons {
+    font-size: 32px;
+}
+
+p.footer__social-icons a {
+    color: #FFF;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+p.footer__social-icons a:last-child {
+    margin-right: 0;
+}
+
+p.footer__social-icons a:hover {
+    color: #FFE400;
+}
+
+.button {
+    font-weight: 700;
+    display: inline-block;
+    border-radius: 50px;
+    text-transform: uppercase;
+    color: #FFF;
+    text-decoration: none;
+    border: 2px solid #FFF;
+    letter-spacing: 1.6px;
+    padding: 8px 23px;
+    margin-bottom: 13px;    
+}
+
+.button:hover{
+    color: #061634;
+    background-color: #FFF;
+}
