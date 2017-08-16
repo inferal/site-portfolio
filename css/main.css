@@ -7,6 +7,7 @@ html, body {
     font-family: 'PT Sans Caption', sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    min-width: 280px;
 }
 
 img{
@@ -51,6 +52,7 @@ a {
     background-position: center;
     background-size: cover;
     height: 100vh;
+    min-height: 400px;
     color: #fff;
     text-align: center;
     display: flex;
@@ -235,6 +237,11 @@ p.footer__social-icons a:hover {
         padding-left: 15px;
         padding-right: 15px;
         text-align: center;
+    }
+    
+    .header {
+        padding-left: 15px;
+        padding-right: 15px;
     }
     
     .header__title {
