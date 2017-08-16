@@ -210,3 +210,22 @@ p.footer__social-icons a:hover {
     color: #061634;
     background-color: #FFF;
 }
+
+/*-------------------------------- Media -----------------------------*/
+@media (max-width: 1160px) {
+    
+    .contener{
+        width: 100%;
+    }
+    
+    .col-4 {
+        width: 100%;
+        box-sizing: content-box;
+        box-sizing: border-box;
+        margin: 0;
+        margin-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+}
