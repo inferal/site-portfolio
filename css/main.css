@@ -17,6 +17,10 @@ a {
     transition: 0.2s ease-out;
 }
 
+* {    
+    box-sizing: border-box;
+}
+
 /*----------------------- GRID -----------------------*/
 
 .contener{
@@ -220,8 +224,6 @@ p.footer__social-icons a:hover {
     
     .col-4 {
         width: 100%;
-        box-sizing: content-box;
-        box-sizing: border-box;
         margin: 0;
         margin-bottom: 30px;
         padding-left: 15px;
