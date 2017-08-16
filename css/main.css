@@ -220,6 +220,7 @@ p.footer__social-icons a:hover {
     
     .contener{
         width: 100%;
+        text-align: center;
     }
     
     .col-4 {
@@ -229,5 +230,21 @@ p.footer__social-icons a:hover {
         padding-left: 15px;
         padding-right: 15px;
         text-align: center;
+    }
+    
+    .header__title {
+        font-size: 38px;
+        line-height: 48px;
+        margin-bottom: 15px;
+    }
+    
+    .header_slogan {
+        font-size: 22px;
+        line-height: 38px;
+    }
+    
+    .portfolio {
+        padding-top: 40px;
+        padding-bottom: 50px;
     }
 }
